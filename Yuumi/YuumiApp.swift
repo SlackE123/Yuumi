@@ -11,12 +11,7 @@ import SwiftUI
 struct YuumiApp: App {
     var body: some Scene {
         WindowGroup{
-            @State private var selectedView = ContentView()
             ContentView()
-            Picker("View", selection: $selectedView) {
-                Text("Ingredients").tag(IngredientView())
-                Text("Recipes").tag(RecipeView())
-            }
         }
     }
 }

@@ -9,7 +9,10 @@ import SwiftUI
 
 struct IngredientView: View {
     var body: some View {
-        Text("Ingredient")
+        VStack {
+            Text("Ingredient")
+
+        }
     }
 }
 
